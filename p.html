@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monalisa Ray | AI Enthusiast</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#000;
+    color:#eafff3;
+    scroll-behavior:smooth;
+}
+
+/* Navbar */
+nav{
+    position:fixed;
+    width:100%;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    background:#000;
+    border-bottom:1px solid #00ff88;
+    z-index:1000;
+}
+
+nav a{
+    color:#00ff88;
+    text-decoration:none;
+    margin-left:18px;
+    font-size:14px;
+}
+
+nav a:hover{ color:white; }
+
+/* Hero */
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+}
+
+.infinity{
+    position:absolute;
+    font-size:420px;
+    color:#00ff88;
+    opacity:0.07;
+    z-index:-1;
+    text-shadow:0 0 70px #00ff88;
+}
+
+.math{
+    position:absolute;
+    color:#00ff88;
+    opacity:0.04;
+    font-size:28px;
+}
+
+.math1{ top:15%; left:10%; }
+.math2{ bottom:20%; right:12%; }
+.math3{ top:70%; left:18%; }
+
+.hero h1{
+    font-size:60px;
+    color:#00ff88;
+    letter-spacing:2px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:10px;
+    color:#a6ffd3;
+}
+
+/* Sections */
+section{
+    padding:110px 10%;
+}
+
+section h2{
+    color:#00ff88;
+    margin-bottom:30px;
+    font-size:28px;
+    border-left:4px solid #00ff88;
+    padding-left:10px;
+}
+
+/* Cards */
+.card{
+    background:#0c0c0c;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #00ff88;
+    margin-bottom:20px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 30px #00ff88;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:22px;
+}
+
+/* Timeline */
+.timeline{
+    border-left:2px solid #00ff88;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:30px;
+    position:relative;
+}
+
+.timeline-item::before{
+    content:"";
+    position:absolute;
+    left:-13px;
+    top:6px;
+    width:14px;
+    height:14px;
+    background:#00ff88;
+    border-radius:50%;
+}
+
+/* Links */
+a{
+    color:#00ff88;
+    text-decoration:none;
+}
+
+a:hover{ color:white; }
+
+/* Icons */
+.icon{
+    margin-right:8px;
+    color:#00ff88;
+}
+
+/* Comment Section */
+.comment-box{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    max-width:500px;
+}
+
+.comment-box input,
+.comment-box textarea{
+    background:#111;
+    border:1px solid #00ff88;
+    color:#eafff3;
+    padding:10px;
+    border-radius:6px;
+}
+
+.comment-box button{
+    background:#00ff88;
+    border:none;
+    padding:10px;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+.comment{
+    background:#111;
+    padding:12px;
+    border-left:3px solid #00ff88;
+    margin-top:12px;
+    border-radius:6px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:50px 20px;
+    border-top:1px solid #00ff88;
+    font-size:14px;
+    color:#a6ffd3;
+}
+
+.footer-note{
+    margin-top:10px;
+    font-size:15px;
+    color:#00ff88;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><b>Monalisa Ray</b></div>
+<div>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#courses">Coursework</a>
+<a href="#certifications">Certifications</a>
+<a href="#projects">Projects</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+<a href="#comments">Comments</a>
+</div>
+</nav>
+
+<div class="hero">
+<div class="infinity">∞</div>
+<div class="math math1">∇</div>
+<div class="math math2">∑</div>
+<div class="math math3">π</div>
+<h1>Monalisa Ray</h1>
+<p>AI Enthusiast</p>
+</div>
+
+<section id="about">
+<h2>About</h2>
+<div class="card">
+Research Scholar at NISER working on scalable AI and machine learning systems. 
+Experience in deep learning, multimodal deepfake detection, LLM fine-tuning, and production deployment.
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="timeline">
+<div class="timeline-item"><b>Research Scholar — NISER</b><br>Oct 2025 – Present</div>
+<div class="timeline-item"><b>Research Intern — Polysia</b><br>Feb 2025 – Sep 2025</div>
+<div class="timeline-item"><b>AI Intern — CODING PRO</b><br>Jun 2024 – Aug 2024</div>
+<div class="timeline-item"><b>Research Fellow — NIT Rourkela</b><br>May 2024 – Jun 2024</div>
+<div class="timeline-item"><b>Summer Research Fellow — NIT Rourkela</b><br>May 2023 – Jul 2023</div>
+<div class="timeline-item"><b>Frontend Developer Intern — Udgosh Welfare Society</b><br>Sep 2023 – Oct 2023</div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+B.Tech in Electronics & Communication Engineering<br>
+Veer Surendra Sai University of Technology (VSSUT)<br>
+Dec 2021 – May 2025<br>
+CGPA: 8.29 / 10
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills & Tech Stack</h2>
+<div class="grid">
+<div class="card"><b>Programming</b><br>Python • C/C++ • SQL</div>
+<div class="card"><b>AI / ML</b><br>TensorFlow • PyTorch • Scikit-learn • OpenCV • Hugging Face • OpenAI API</div>
+<div class="card"><b>Backend & Web</b><br>Django • Supabase • HTML • CSS • JavaScript</div>
+<div class="card"><b>Tools</b><br>Docker • AWS • Git • GitHub • Jupyter</div>
+</div>
+</section>
+
+<section id="courses">
+<h2>Relevant Coursework</h2>
+<div class="card">
+Machine Learning • Deep Learning • NLP • Generative AI • Probability & Statistics • Data Structures & Algorithms • OOP
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<div class="card">
+Google Skills Badge<br>
+<a href="https://www.skills.google/public_profiles/a8336b8c-26a6-4dd8-9ed8-62a347679c0b/badges/17121411" target="_blank">View Credential</a>
+</div>
+<div class="card">
+Coursera Verified Certificate<br>
+<a href="https://www.coursera.org/account/accomplishments/verify/MTXU080XU8Y1" target="_blank">Verify Certificate</a>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card">
+AI Blog Creator<br>
+Django-based AI blog generator converting YouTube summaries into structured articles.<br><br>
+<a href="https://ai-blog-generetor.onrender.com" target="_blank">View Live Demo</a>
+</div>
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+<div class="timeline">
+<div class="timeline-item">
+<b>2026 — ISCP 2.0 CTF Hackathon | Organized by Flipkart</b><br>
+Advanced to Round 2 | Ranked ~200 nationally
+</div>
+<div class="timeline-item"><b>2022 — CODENEGERS (IEEE VSSUT)</b><br>Ranked 5th</div>
+<div class="timeline-item"><b>2022 — Unstop Focus on Code</b><br>63rd Rank</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact & Coding Profiles</h2>
+<div class="grid">
+<div class="card"><i class="fas fa-envelope icon"></i>raymonalisa395@gmail.com</div>
+<div class="card"><i class="fab fa-linkedin icon"></i><a href="https://linkedin.com/in/monalisa-ray-a1b35a247" target="_blank">LinkedIn</a></div>
+<div class="card"><i class="fab fa-github icon"></i><a href="https://github.com/Monalisa637" target="_blank">GitHub</a></div>
+<div class="card"><i class="fas fa-code icon"></i><a href="https://codeforces.com/profile/raymonalisa395" target="_blank">Codeforces</a></div>
+<div class="card"><i class="fas fa-laptop-code icon"></i><a href="https://leetcode.com/u/M_j1-c/" target="_blank">LeetCode</a></div>
+<div class="card"><i class="fas fa-trophy icon"></i><a href="https://hackerrank.com/profile/raymonalisa395" target="_blank">HackerRank</a></div>
+<div class="card"><i class="fas fa-chart-line icon"></i><a href="https://kaggle.com/monalisaray" target="_blank">Kaggle</a></div>
+</div>
+</section>
+
+<section id="comments">
+<h2>Share your suggestions here...</h2>
+
+<div class="comment-box">
+<input type="text" id="name" placeholder="Your Name">
+<textarea id="message" rows="3" placeholder="Your Comment"></textarea>
+<button onclick="addComment()">Submit</button>
+</div>
+
+<div id="commentSection"></div>
+</section>
+
+<footer>
+© 2026 Monalisa Ray. 
+<div class="footer-note">*</div>
+</footer>
+
+<script>
+function addComment(){
+    let name=document.getElementById("name").value;
+    let message=document.getElementById("message").value;
+    if(name && message){
+        let div=document.createElement("div");
+        div.className="comment";
+        div.innerHTML="<b>"+name+"</b><br>"+message;
+        document.getElementById("commentSection").appendChild(div);
+        document.getElementById("name").value="";
+        document.getElementById("message").value="";
+    }
+}
+</script>
+
+</body>
+</html>
